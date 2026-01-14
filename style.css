@@ -12,7 +12,7 @@ body {
   line-height: 1.7;
   color: #0f172a;
   /* Ocean background - deep blue gradient */
-  background: linear-gradient(to bottom, #003d5c, #005f7f, #007ba7);
+  background: linear-gradient(to bottom, #154360, #005f7f, #007ba7);
   background-attachment: fixed;
 }
 
@@ -24,7 +24,7 @@ a {
 
 /* Navigation */
 nav {
-  background: linear-gradient(90deg, #1d4ed8, #22c55e);
+  background: linear-gradient(90deg, #00BA38, #22aa55);
   padding: 0.9rem 0;
   position: fixed;
   width: 100%;
