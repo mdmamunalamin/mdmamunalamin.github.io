@@ -3,112 +3,268 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- SEO -->
-  <title>Md Mamun Al-Amin, PhD | Translational Neuroscientist</title>
-  <meta name="description" content="Md Mamun Al-Amin, PhD – Translational neuroscientist specializing in neuroimaging, white matter pathology, and Alzheimer's disease at Indiana University School of Medicine." />
-  <meta name="keywords" content="Neuroscience, Alzheimer's Disease, Neuroimaging, White Matter, Translational Research, Indiana University" />
+  <meta name="description" content="Md Mamun Al-Amin, PhD is an Assistant Research Professor at Indiana University School of Medicine specializing in translational neuroscience, Alzheimer's disease, and neuroimaging." />
+  <meta name="keywords" content="Md Mamun Al-Amin, Neuroscientist, Alzheimer's Disease, Neuroimaging, Indiana University, Stark Neurosciences Research Institute" />
   <meta name="author" content="Md Mamun Al-Amin" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Md Mamun Al-Amin, PhD" />
-  <meta property="og:description" content="Assistant Research Professor | Translational Neuroscience | Alzheimer's Disease" />
-  <meta property="og:type" content="website" />
-
+  <title>Md Mamun Al-Amin, PhD | Translational Neuroscientist</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <nav>
   <div class="nav-container">
-    <a href="index.html" class="logo">Md Mamun Al-Amin</a>
+    <a href="#" class="logo">Md Mamun Al-Amin, PhD</a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#research">Research</a></li>
-      <li><a href="publications.html">Publications</a></li>
+      <li><a href="#publications">Publications</a></li>
       <li><a href="#teaching">Teaching</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    <div class="mobile-menu-toggle">☰</div>
   </div>
 </nav>
 
 <header class="hero">
-  <div class="hero-inner">
-    <img src="microscope.jpg" alt="Neuroscience research" class="hero-image" />
-
+  <div class="container hero-inner">
     <div class="hero-content">
+      <p class="eyebrow">Translational Neuroscientist</p>
       <h1>Md Mamun Al-Amin, PhD</h1>
-      <p class="subtitle">Translational Neuroscientist · Neuroimaging · Alzheimer’s Disease</p>
-      <p class="affiliation">
+      <p class="subtitle">
         Assistant Research Professor<br />
-        Indiana University School of Medicine
+        Department of Medical & Molecular Genetics<br />
+        <span class="highlight">Indiana University School of Medicine</span>
+      </p>
+      
+      <p class="hero-bio">
+        Investigating the cellular and molecular mechanisms of Alzheimer's disease with a focus on white matter pathology, myelination, and brain network integrity.
       </p>
 
-      <a class="cv-button" href="cv.pdf" target="_blank">Download Academic CV (PDF)</a>
+      <div class="hero-actions">
+        <a href="resume.docx" class="btn btn-primary" download>Download CV</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </div>
+    
+    <div class="hero-image-wrapper">
+      <img
+        src="microscope.jpg"
+        alt="Dr. Al-Amin utilizing fluorescence microscopy"
+        class="hero-image"
+      />
     </div>
   </div>
 </header>
 
 <section id="about" class="section">
-  <div class="container">
-    <h2>About</h2>
-    <p>
-      I am an Assistant Research Professor in the Department of Medical & Molecular Genetics at Indiana University School of Medicine. My research focuses on the molecular, cellular, and systems-level mechanisms underlying neurodegenerative disorders, particularly Alzheimer’s disease.
-    </p>
-    <p>
-      My work integrates neuropathology, diffusion MRI, and network neuroscience to understand how white matter degeneration contributes to cognitive decline. I have trained internationally across Bangladesh, Germany, and Australia.
-    </p>
+  <div class="container split-layout">
+    <div class="about-text">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I am a neuroscientist dedicated to bridging the gap between molecular pathology and large-scale brain network organization. Currently, I serve as an Assistant Research Professor at the Stark Neurosciences Research Institute.
+      </p>
+      <p>
+        My academic journey spans three continents. I received my training in Bangladesh, Germany, and Australia. This global perspective shapes my approach to translational neuroscience and my commitment to championing diversity in the scientific community.
+      </p>
+    </div>
+    
+    <div class="education-card">
+      <h3>Education & Training</h3>
+      <ul class="timeline">
+        <li class="timeline-item">
+          <span class="year">2019</span>
+          <div class="details">
+            <strong>PhD in Neuroscience</strong>
+            <span class="inst">The University of Queensland, Australia</span>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <span class="year">2012</span>
+          <div class="details">
+            <strong>MSc in Neuro-cognitive Psychology</strong>
+            <span class="inst">Ludwig-Maximilian University, Germany</span>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <span class="year">2008</span>
+          <div class="details">
+            <strong>MS in Pharmaceutical Science</strong>
+            <span class="inst">Jahangirnagar University, Bangladesh</span>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
 
-<section id="research" class="section alt">
+<section id="research" class="section bg-light">
   <div class="container">
-    <h2>Research Focus</h2>
+    <h2 class="section-title text-center">Research Focus</h2>
+    <p class="section-intro text-center">
+      My laboratory integrates advanced neuroimaging with molecular biology to decode neurodegenerative mechanisms.
+    </p>
 
-    <div class="research-grid">
-      <div class="research-card">
-        <h3>Alzheimer’s Disease</h3>
-        <p>Mechanisms of microglial activation, oligodendrocyte dysfunction, and myelin pathology.</p>
-      </div>
-      <div class="research-card">
-        <h3>White Matter Connectivity</h3>
-        <p>Diffusion MRI and advanced microstructural modeling linked to cognition and pathology.</p>
-      </div>
-      <div class="research-card">
+    <div class="grid-3">
+      <article class="research-card">
+        <div class="card-icon">🔬</div>
+        <h3>AD & Neurodegeneration</h3>
+        <p>
+          Dissecting the roles of microglia and oligodendrocytes in Alzheimer’s disease using genetically engineered mouse models (e.g., 5xFAD).
+        </p>
+      </article>
+
+      <article class="research-card">
+        <div class="card-icon">🧠</div>
+        <h3>White Matter & Connectivity</h3>
+        <p>
+          Utilizing diffusion MRI and NODDI modeling to link microstructural white matter changes to cognitive outcomes and histopathology.
+        </p>
+      </article>
+
+      <article class="research-card">
+        <div class="card-icon">🧩</div>
         <h3>Hippocampus & Memory</h3>
-        <p>Structural and signaling mechanisms underlying learning, memory, and resilience.</p>
+        <p>
+          Investigating nitric oxide signaling and long-range connectivity contributions to learning, memory, and cognitive resilience.
+        </p>
+      </article>
+    </div>
+    
+    <div class="research-visual mt-2">
+       <figure>
+        <img src="cortex.jpg" alt="High resolution cortical brain tissue imaging showing neuronal networks" />
+        <figcaption>Representative imaging of cortical neuronal networks from current studies.</figcaption>
+       </figure>
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="section">
+  <div class="container">
+    <h2 class="section-title">Selected Publications</h2>
+    <div class="pub-list">
+      
+      <div class="pub-item">
+        <div class="pub-year">2025</div>
+        <div class="pub-content">
+          <strong>Al-Amin MM</strong>, et al.
+          <a href="#" class="pub-title">Apolipoprotein ε4 exacerbates white matter impairment in a mouse model of Aβ amyloidosis by decreasing actively myelinating oligodendrocytes.</a>
+          <em>Alzheimer’s & Dementia</em>.
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-year">2024</div>
+        <div class="pub-content">
+          Kim B, ..., <strong>Al-Amin MM</strong>, et al.
+          <span class="pub-title">SPI1-mediated transcriptome remodeling.</span>
+          <em>Nature Communications</em>.
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-year">2024</div>
+        <div class="pub-content">
+          Cadiz MP, ..., <strong>Al-Amin MM</strong>, et al.
+          <span class="pub-title">Aducanumab induces sustained immune alterations.</span>
+          <em>Journal of Experimental Medicine</em>.
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-2">
+      <a href="https://scholar.google.com/citations?user=5yRRRAYAAAAJ" target="_blank" class="btn btn-outline">
+        View Google Scholar Profile
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="teaching" class="section bg-light">
+  <div class="container split-layout">
+    <div>
+      <h2 class="section-title">Teaching</h2>
+      <p>
+        I have extensive experience teaching neuroscience, pharmacology, and pharmaceutical sciences at the university level.
+      </p>
+      <ul class="feature-list">
+        <li>Human Physiology</li>
+        <li>Statistics in Pharmaceutical Sciences</li>
+        <li>Medicinal Chemistry</li>
+        <li>Drug Discovery</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2 class="section-title">Mentoring</h2>
+      <p>
+        Mentoring the next generation of scientists is central to my academic mission. I have supervised students at NSU, JU, and IUSM.
+      </p>
+      <div class="mentee-list">
+        <div class="mentee">
+          <strong>Sam Patrick Walsh</strong> (Technician, IUSM)
+        </div>
+        <div class="mentee">
+          <strong>Noah Radtke Kishimoto</strong> (Summer Research, SNRI)
+        </div>
+        <div class="mentee">
+          <strong>Mehreen Zakaria</strong> (Summer Research, IUSM)
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="teaching" class="section">
+<section id="hobbies" class="section">
   <div class="container">
-    <h2>Teaching & Mentoring</h2>
-    <p>
-      University-level teaching in neuroscience, pharmacology, and pharmaceutical sciences, with extensive mentoring of undergraduate and graduate trainees.
-    </p>
+    <div class="hobby-card">
+      <div class="hobby-content">
+        <h2 class="section-title">Personal Interests</h2>
+        <p>
+          Balance is essential for academic longevity. Outside the laboratory, I am an avid soccer player. The sport keeps me active and sharpens the teamwork skills that I bring back to my collaborative research projects.
+        </p>
+      </div>
+      <img src="soccer.png" alt="Soccer ball illustration" class="hobby-img" />
+    </div>
   </div>
 </section>
 
-<section id="contact" class="section alt">
-  <div class="container">
-    <h2>Contact</h2>
-    <p><strong>Email:</strong> mdalamin@iu.edu</p>
-    <p><strong>Location:</strong> Indiana, USA</p>
+<section id="contact" class="section bg-dark text-white">
+  <div class="container text-center">
+    <h2 class="section-title text-white">Get in Touch</h2>
+    <p class="contact-lead">
+      I am always open to collaboration and academic exchange.
+    </p>
+    
+    <div class="contact-grid">
+      <div class="contact-item">
+        <span class="label">Email</span>
+        <a href="mailto:mdalamin@iu.edu">mdalamin@iu.edu</a>
+      </div>
+      <div class="contact-item">
+        <span class="label">Location</span>
+        <span>Indianapolis, Indiana, USA</span>
+      </div>
+    </div>
 
-    <div class="social-links">
-      <a href="https://medicine.iu.edu/faculty/47460/al-amin-md-mamun" target="_blank">IU Profile</a>
-      <a href="https://scholar.google.com/citations?user=5yRRRAYAAAAJ" target="_blank">Google Scholar</a>
-      <a href="https://orcid.org/0000-0003-4234-7152" target="_blank">ORCID</a>
-      <a href="https://github.com/mdmamunalamin" target="_blank">GitHub</a>
+    <div class="social-icons">
+      <a href="https://medicine.iu.edu/faculty/47460/al-amin-md-mamun" target="_blank" aria-label="IU Profile">IU Profile</a>
+      <a href="https://scholar.google.com/citations?user=5yRRRAYAAAAJ" target="_blank" aria-label="Google Scholar">Google Scholar</a>
+      <a href="https://orcid.org/0000-0003-4234-7152" target="_blank" aria-label="ORCID">ORCID</a>
+      <a href="https://github.com/mdmamunalamin" target="_blank" aria-label="GitHub">GitHub</a>
     </div>
   </div>
 </section>
 
 <footer>
-  © 2026 Md Mamun Al-Amin
+  <div class="container">
+    <p>© 2026 Md Mamun Al-Amin, PhD. All rights reserved.</p>
+  </div>
 </footer>
 
 </body>
