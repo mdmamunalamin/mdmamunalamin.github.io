@@ -3,163 +3,133 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mamun Custom T‑Shirts</title>
+  <title>Mamun Custom T-Shirts – Shop</title>
+
+  <!-- PayPal SDK (replace YOUR_CLIENT_ID) -->
+  <!-- <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=USD"></script> -->
+
   <style>
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f7f7f7;
-      color: #222;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f8fafc;
+      color: #111827;
     }
     header {
-      background: #0f172a;
-      color: #fff;
+      background: #020617;
+      color: white;
       padding: 1.5rem;
       text-align: center;
     }
-    header a {
-      color: #93c5fd;
-      text-decoration: none;
-      font-size: 0.9rem;
-    }
-    .container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 2rem 1rem;
-    }
-    .hero {
+    header a { color: #93c5fd; text-decoration: none; }
+    .container { max-width: 1100px; margin: auto; padding: 2rem 1rem; }
+    h1, h2 { margin-bottom: 0.8rem; }
+    .product {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 2rem;
-      align-items: center;
-    }
-    .hero img {
-      width: 100%;
+      background: white;
+      padding: 2rem;
       border-radius: 12px;
-      background: #fff;
-      padding: 1rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     }
-    .hero h1 {
-      font-size: 2.2rem;
-      margin-bottom: 1rem;
+    .product img { width: 100%; border-radius: 10px; }
+    label { font-weight: 600; display: block; margin-top: 1rem; }
+    select, input, textarea {
+      width: 100%;
+      padding: 0.6rem;
+      margin-top: 0.4rem;
+      border-radius: 6px;
+      border: 1px solid #cbd5f5;
     }
-    .hero p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-    }
+    .price { font-size: 1.4rem; font-weight: bold; color: #16a34a; margin-top: 1rem; }
     .btn {
       display: inline-block;
       margin-top: 1.2rem;
       padding: 0.8rem 1.4rem;
       background: #2563eb;
-      color: #fff;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .products {
-      margin-top: 3rem;
-    }
-    .products h2 {
-      text-align: center;
-      margin-bottom: 2rem;
-      font-size: 1.8rem;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-    .card {
-      background: #fff;
-      border-radius: 10px;
-      padding: 1rem;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-      text-align: center;
-    }
-    .card img {
-      width: 100%;
+      color: white;
       border-radius: 8px;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
     }
-    .card h3 {
-      margin: 0.8rem 0 0.4rem;
-    }
-    .price {
-      font-weight: bold;
-      color: #16a34a;
-      margin-bottom: 0.6rem;
-    }
+    .btn.secondary { background: #0f172a; }
     footer {
-      margin-top: 3rem;
-      padding: 1.5rem;
-      background: #0f172a;
+      margin-top: 4rem;
+      padding: 2rem;
+      background: #020617;
       color: #cbd5f5;
       text-align: center;
       font-size: 0.9rem;
     }
     @media (max-width: 768px) {
-      .hero {
-        grid-template-columns: 1fr;
-      }
+      .product { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Mamun Custom T‑Shirt Store</h1>
-  <p>Wear your identity, thoughts, and creativity</p>
+  <h1>Mamun Custom T-Shirts</h1>
+  <p>Custom art • Cultural identity • Thoughtful designs</p>
   <a href="https://mdmamunalamin.github.io">← Back to Personal Website</a>
 </header>
 
 <div class="container">
-  <!-- Hero Section -->
-  <section class="hero">
-    <div>
-      <h1>Custom Designed T‑Shirts</h1>
-      <p>
-        I design meaningful, artistic, and cultural graphics and print them on
-        high‑quality t‑shirts. You can also request your own custom design.
-      </p>
-      <a class="btn" href="#products">Shop Now</a>
-    </div>
-    <img src="images/Muslim Bangla Store.png" alt="Muslim Bangla Store Design">
-  </section>
+  <h2>Order Your Custom T-Shirt</h2>
 
-  <!-- Products -->
-  <section id="products" class="products">
-    <h2>Featured Designs</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="images/Muslim Bangla Store.png" alt="Muslim Bangla Store">
-        <h3>Muslim Bangla Store</h3>
-        <p class="price">$25</p>
-        <p>Cultural identity inspired design.</p>
-        <a class="btn" href="mailto:mdmamunalamin@gmail.com?subject=Order: Muslim Bangla Store T‑Shirt">Order Now</a>
-      </div>
+  <div class="product">
+    <img src="images/Muslim Bangla Store.png" alt="T-Shirt Design Preview" />
 
-      <div class="card">
-        <img src="images/Life is consciousness.png" alt="Life is Consciousness">
-        <h3>Life is Consciousness</h3>
-        <p class="price">$22</p>
-        <p>Minimalist philosophical artwork.</p>
-        <a class="btn" href="mailto:mdmamunalamin@gmail.com?subject=Order: Life is Consciousness T‑Shirt">Order Now</a>
-      </div>
+    <!-- ORDER FORM -->
+    <form id="orderForm">
+      <label>Choose Design</label>
+      <select required>
+        <option>Muslim Bangla Store</option>
+        <option>Life is Consciousness</option>
+        <option>Mind & Nature</option>
+        <option>My Own Custom Design</option>
+      </select>
 
-      <div class="card">
-        <img src="images/image.png" alt="Brain and Nature">
-        <h3>Mind & Nature</h3>
-        <p class="price">$24</p>
-        <p>Artistic brain & nature fusion illustration.</p>
-        <a class="btn" href="mailto:mdmamunalamin@gmail.com?subject=Order: Mind and Nature T‑Shirt">Order Now</a>
-      </div>
-    </div>
-  </section>
+      <label>T-Shirt Size</label>
+      <select required>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+        <option>XXL</option>
+      </select>
+
+      <label>T-Shirt Color</label>
+      <select required>
+        <option>Black</option>
+        <option>White</option>
+        <option>Navy</option>
+        <option>Gray</option>
+        <option>Custom Color</option>
+      </select>
+
+      <label>Upload Your Custom Design (optional)</label>
+      <input type="file" accept="image/*" />
+
+      <label>Additional Notes</label>
+      <textarea rows="3" placeholder="Any instructions or ideas..."></textarea>
+
+      <p class="price">Price: $25</p>
+
+      <!-- STRIPE CHECKOUT (LINK MODE) -->
+      <button type="button" class="btn" onclick="alert('Stripe Checkout link goes here')">Pay with Stripe</button>
+
+      <!-- PAYPAL BUTTON PLACEHOLDER -->
+      <button type="button" class="btn secondary" onclick="alert('PayPal Checkout goes here')">Pay with PayPal</button>
+    </form>
+  </div>
 </div>
 
 <footer>
-  <p>© 2026 Mamun | Custom T‑Shirts</p>
-  <p>Contact: mdmamunalamin@gmail.com</p>
+  <p>© 2026 Mamun – Custom T-Shirts</p>
+  <p>Future-ready for Print-on-Demand & Global Shipping</p>
 </footer>
 
 </body>
